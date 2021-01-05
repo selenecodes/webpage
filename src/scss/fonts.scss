@@ -1,0 +1,139 @@
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    // line
+    letter-spacing: -0.003em;
+    line-height: 1.45rem;
+    margin-top: 1.2rem;
+    // margin-bottom: -0.46em;
+}
+    
+
+a {
+	color: var(--text-color);
+	text-decoration: none;
+}
+
+.a:hover span {
+	color: var(--red);
+	text-decoration: none;
+}
+
+.red {
+	color: var(--red);
+}
+
+html, body {
+    color: var(--text-color);
+    font-family: "Jost";
+    // font-size: 1.125rem;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    letter-spacing: 0;
+    color: var(--header-color);
+}
+
+h1, h2 {
+    font-weight: 500;
+}
+
+h1 {
+    line-height: 36px;
+    font-size: 1.43rem;
+    margin-bottom: -.28rem;
+    
+    &:not(.title) {
+        margin-top: 1.95rem;
+    }
+}
+
+h2 {
+    line-height: 28px;
+    font-size: 22px;
+    margin-bottom: -.31rem;
+
+    &:not(.subtitle) {
+        margin-top: 1.72rem;
+    }
+}
+
+h3 {
+    font-size: 1.17rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: .83rem;
+}
+
+h6 {
+    font-size: .67rem;
+}
+
+b {
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+hr {
+    width: 10%;
+    height: 3px;
+    background-color: var(--hr-color);
+    border: 0;
+    border-radius: 1.5px;
+    margin: 1.6rem auto;
+}
+
+.button {
+    padding: 0.6em;
+	font-weight: 900;
+	background-color: var(--red);
+	color: #f2f2f2;
+	font-size: 2em;
+	transition: box-shadow 0.2s;
+	letter-spacing: 0.2em;
+
+	&:hover {
+		box-shadow: 0.4em 0.4em 0 0 var(--header-color);
+		transition: box-shadow 0.2s;
+	}
+}
+
+blockquote {
+    border-left: 4px solid var(--red);
+    padding-left: 1rem;
+    height: 2.5rem;
+    display: flex;
+
+    p {
+        margin: auto 0;
+    }
+}
+
+#mono, pre, code, .selectable {
+    font-family: "monospace" !important;
+    font-weight: 500;
+}
+
+.selectable :hover {
+    background-color: #ffffff;
+    cursor: copy;
+}
+
+@media (min-width: 1080px) {
+    p {
+        font-size: 1.166rem;
+    }
+}

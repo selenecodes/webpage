@@ -1,0 +1,40 @@
+.footer {
+    contain: strict;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    bottom: 0;
+    color: var(--text-color);
+    height: var(--footerHeight);
+    width: 100%;
+
+    p {
+        margin: 0;
+    }
+}
+
+.divider, .copyright, .twitter-link {
+    font-size: .9rem;
+}
+
+@media (max-width: 639px) {
+    :root {
+        --footerHeight: 80px;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .copyright {
+        display: block;
+    }    
+    
+    .twitter-link {
+        margin-top: -.6rem;
+        display: block;
+        text-align: center;
+    }
+}

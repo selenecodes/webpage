@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<footer
+  className="footer"
+>
+  <p>
+    <span
+      className="copyright"
+    >
+      © 
+      2020
+      , Selene Blok
+    </span>
+    <span
+      className="divider"
+    >
+       -  
+    </span>
+    <span
+      className="twitterLink"
+    >
+      <a
+        className="red"
+        href="https://twitter.com/selene_codes"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="My Twitter"
+      >
+        @selene_codes
+      </a>
+    </span>
+  </p>
+</footer>
+`;

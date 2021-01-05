@@ -1,0 +1,36 @@
+// General styles
+:root {
+    --footerHeight: 50px;
+    --headerHeight: 50px;
+    --subtle: rgba(0, 0, 0, .1);
+    --red: #c83737;
+    --transitionSpeed: 250ms;
+}
+
+// Dark styles
+.dark {
+    --bg:  #2d2d2d;
+    --bg-accent: #393939;
+    --text-color: #e7e8eb;
+    --hr-color: grey;
+    --header-color: #e7e8eb;
+    --svg-fill-color: var(--header-color)
+}
+
+// Light styles
+.light {
+    --bg: #fff;
+    --bg-accent: #fff;
+    --header-color: rgba(41,41,41,1);
+    --text-color: #292929;
+    --hr-color: rgba(0,0,0,.45);
+    --svg-fill-color: var(--header-color)
+}
+
+* {
+    transition: background-color var(--transitionSpeed) ease-in-out;
+}
+
+html, body {
+    background-color: var(--bg);
+}

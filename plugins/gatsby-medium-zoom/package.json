@@ -1,0 +1,20 @@
+{
+    "name": "gatsby-remark-images-medium-zoom",
+    "version": "1.7.0",
+    "description": "medium-zoom plugin for gatsby",
+    "main": "index.js",
+    "scripts": { },
+    "keywords": [
+        "gatsby",
+        "gatsby-plugin",
+        "image",
+        "remark",
+        "medium-zoom"
+    ],
+    "author": "Selene Blok (selenecodes)",
+    "license": "MIT",
+    "dependencies": {
+        "@fastly/performance-observer-polyfill": "^1.1.1",
+        "medium-zoom": "^1.0.4"
+    }
+}

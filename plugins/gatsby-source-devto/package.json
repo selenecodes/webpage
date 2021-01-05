@@ -1,0 +1,21 @@
+{
+    "name": "gatsby-source-devto",
+    "version": "1.0.0",
+    "description": "Gatsby plugin that fetches user articles from Dev.to",
+    "main": "gatsby-node.js",
+    "repository": "https://github.com/selenecodes/website",
+    "author": "Selene Blok",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "query-string": "^6.12.1"
+    },
+    "peerDependencies": {
+        "gatsby": "^2.22.4"
+    },
+    "keywords": [
+        "gatsby",
+        "dev.to",
+        "gatsby-plugin"
+    ]
+}

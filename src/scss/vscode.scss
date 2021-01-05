@@ -1,0 +1,65 @@
+$vs-background: #282c34;
+$vs-selection-bg: #67769660;
+$vs-selection-highlight-bg: #ffffff10;
+
+// .grvsc-code {
+// 	counter-reset: line;
+// }
+
+// .grvsc-line::before {
+//     position: sticky;
+//     left: 0px;
+//     width: 40px;
+//     display: inline-block;
+//     padding-left: 10px;
+//     background-color: $vs-background;
+// 	counter-increment: line;
+// 	content: counter(line);
+// 	margin-left: -27px;
+// 	-webkit-user-select: none;
+// 	user-select: none;
+// }
+
+.grvsc-container {
+    border-radius: 0 !important;
+
+    $vs-scrollbar-color: #4e566660;
+    $vs-scrollbar-highlight-color: #747d9180;
+    $vs-scrollbar-hover-color: #5a637580;
+
+    &::-webkit-scrollbar-corner {
+        background-color: $vs-background;
+        border-left: 1px solid $vs-scrollbar-highlight-color;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $vs-scrollbar-color;
+
+        &:hover {
+            background-color: $vs-scrollbar-hover-color;
+        }
+    }
+
+    &::-webkit-scrollbar-track {
+        &:vertical {
+            border-left: 1px solid $vs-scrollbar-highlight-color;
+        }
+    }
+
+    &::-webkit-scrollbar {
+        width: 16px;
+    }
+
+    ::selection {
+        background: $vs-selection-bg;
+    }
+}
+
+pre, code {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.grvsc-code {
+    cursor: text;
+}

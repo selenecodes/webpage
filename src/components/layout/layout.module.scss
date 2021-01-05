@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bg);
+}
+
+.layout-content {
+    bottom: 0;
+    width: 100%;
+    padding-bottom: calc(var(--footerHeight) + 20px);
+}

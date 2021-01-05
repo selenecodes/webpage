@@ -1,0 +1,13 @@
+.tag {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 5px;
+    padding: 0px 9px;
+    border-radius: 20px;
+    border: 2px solid var(--red);
+
+    &::before {
+        content: "#"
+    }
+}

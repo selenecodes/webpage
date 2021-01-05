@@ -1,0 +1,23 @@
+.socialIcons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    a {
+        margin: 0 5px;
+        img {
+            fill: white;
+        }
+
+        svg > path {
+            fill: var(--svg-fill-color);
+            transition: fill var(--transitionSpeed);
+        }
+
+        &:hover {
+            svg > path {
+                fill: var(--red);
+            }
+        }
+    }
+}

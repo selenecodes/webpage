@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    
+    .content {
+        width: 100%;
+        margin: 40px auto 0 auto;
+        padding: 0 .9rem;
+        position: relative;
+
+        &.wide {
+            max-width: 1032px !important;
+        }
+    };
+}
+
+@media (min-width: 640px) {
+    
+}
+
+@media (min-width: 768px) {
+    .content {
+        max-width: 680px;
+    }
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
