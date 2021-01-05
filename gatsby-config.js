@@ -15,20 +15,15 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: `gatsby-plugin-csp`,
-      options: {
-        reportOnly: false,
-        disableOnDev: true,
-        directives: {
-          "style-src": `'self' https://fonts.googleapis.com`,
-          "font-src": `'self' https://fonts.gstatic.com`,
-          "prefetch-src": `'self' https://fonts.googleapis.com`
-        }
-      },
-    },
     "gatsby-plugin-sass",
-    `gatsby-plugin-robots-txt`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        policy: [{ userAgent: '*', allow: '/' }],
+        sitemap: "https://selene.codes/sitemap.xml",
+        host: "https://selene.codes",
+      }
+    },
     "gatsby-plugin-sitemap",
     "gatsby-plugin-react-helmet",
     {
@@ -84,9 +79,6 @@ module.exports = {
               extensions: ['material-theme']
             }
           },
-          // {
-          //   resolve: require.resolve('./plugins/gatsby-medium-zoom'),
-          // },
         ],
       },
     },
@@ -96,6 +88,12 @@ module.exports = {
         rule: {
           include: /images/ // See below to configure properly
         }
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-zopfli',
+      options: {
+        extensions: ['css', 'html', 'js', 'svg']
       }
     },
     "gatsby-plugin-offline",

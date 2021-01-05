@@ -12,7 +12,7 @@ const Contact = () => (
 				<h1>Contact Me:</h1>
 				<p>
 					<span>Email: </span>
-					<a className="red" href="mailto:selene.blok@gmail.com">selene.blok@gmail.com</a>
+					<a className="red" href="mailto:selene.blok@gmail.com" aria-label="Gmail">selene.blok@gmail.com</a>
 				</p>
 				<Socials></Socials>
 			</div>

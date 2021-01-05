@@ -12,6 +12,7 @@ const Footer = () => (
             <span className={styles.twitterLink}>
                 <a
                     href="https://twitter.com/selene_codes"
+                    aria-label="Twitter"
                     className="red"
                     target="_blank"
                     title="My Twitter"

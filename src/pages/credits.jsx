@@ -14,19 +14,19 @@ const Credits = () => (
 					The fonts that are used on this webpage are provided by Google Fonts.
 					<br />
 					The fonts that are used are <code>Jost</code> for most text, made by Owen Earl, see his&nbsp;
-                    <a className="red" target="_blank" rel="noopener noreferrer" href="https://indestructibletype.com/Jost.html">
+                    <a className="red" target="_blank" rel="noopener noreferrer" href="https://indestructibletype.com/Jost.html" aria-label="Jost* Indestructible Type Project">
                         webpage
                     </a>.
 				</p>
 				<h2 className="red">Framework</h2>
 				<p>
 					I use&nbsp;
-					<a className="red" target="_blank" rel="noopener noreferrer" href="https://www.gatsbyjs.org/">Gatsby</a> 
+					<a className="red" target="_blank" rel="noopener noreferrer" href="https://www.gatsbyjs.org/" aria-label="Gatsby">Gatsby</a> 
                     &nbsp;to generate static webpages. You can find this whole webpage's SourceCode on my Github profile.
 				</p>
 				<p>
 					I use the&nbsp;
-					<a className="red" target="_blank" rel="noopener noreferrer" href="https://docs.dev.to/api/">dev.to api</a>
+					<a className="red" target="_blank" rel="noopener noreferrer" href="https://docs.dev.to/api/" aria-label="Dev.to API">dev.to api</a>
                     &nbsp;to pull in articles that are compiled ahead-of-time by Gatsby when building the app.
 				</p>
 			</div>
