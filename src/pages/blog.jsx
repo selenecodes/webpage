@@ -27,7 +27,7 @@ function Blog() {
 								slug
 								cover {
 									childImageSharp {
-										fluid(maxWidth: 880, quality: 100) {
+										fluid(maxWidth: 1000, quality: 100) {
 											...GatsbyImageSharpFluid
 										}
 									}
@@ -48,7 +48,7 @@ function Blog() {
 			/>
 			<div className="wrapper">
 				<div className="content wide">
-					<h1>Blog</h1>
+					<h1 className="title">Blog</h1>
 					<Articles articles={blog.allDevArticle.edges} />
 				</div>
 			</div>

@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title, type, keywords, image }) {
     const { site } = useStaticQuery(
         graphql`
             query {
@@ -19,6 +19,9 @@ function SEO({ description, lang, meta, title }) {
                         title
                         description
                         author
+                        type
+                        keywords
+                        twitter
                     }
                 }
             }
@@ -26,6 +29,9 @@ function SEO({ description, lang, meta, title }) {
     );
 
     const metaDescription = description || site.siteMetadata.description;
+    const metaPageType = type || site.siteMetadata.type;
+    const metaPageKeywords = keywords || site.siteMetadata.keywords;
+    const metaImage = image;
 
     return (
         <Helmet
@@ -41,6 +47,10 @@ function SEO({ description, lang, meta, title }) {
                     content: metaDescription,
                 },
                 {
+                    name: `keywords`,
+                    content: metaPageKeywords,
+                },
+                {
                     property: `og:title`,
                     content: title,
                 },
@@ -50,7 +60,15 @@ function SEO({ description, lang, meta, title }) {
                 },
                 {
                     property: `og:type`,
-                    content: `website`,
+                    content: metaPageType,
+                },
+                {
+                    property: `og:image`,
+                    content: metaImage,
+                },
+                {
+                    property: `og:site_name`,
+                    content: site.siteMetadata.title,
                 },
                 {
                     name: `twitter:card`,
@@ -58,7 +76,7 @@ function SEO({ description, lang, meta, title }) {
                 },
                 {
                     name: `twitter:creator`,
-                    content: site.siteMetadata.author,
+                    content: site.siteMetadata.twitter,
                 },
                 {
                     name: `twitter:title`,
@@ -67,6 +85,10 @@ function SEO({ description, lang, meta, title }) {
                 {
                     name: `twitter:description`,
                     content: metaDescription,
+                },
+                {
+                    name: `twitter:image`,
+                    content: metaImage,
                 },
             ].concat(meta)}
         />

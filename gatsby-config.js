@@ -2,8 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `SeleneCodes`,
     description: `Want to have fun with Angular, Gatsby, D3.js and many more? Join now!`,
-    author: `@selene_codes`,
-    siteUrl: `https://selene.codes`
+    author: `Selene Blok`,
+    twitter: `@selene_codes`,
+    siteUrl: `https://selene.codes`,
+    type: `website`,
+    keywords: ['Gatsby', 'D3', 'Data Science']
   },
   plugins: [
     "gatsby-plugin-root-import",

@@ -9,16 +9,18 @@ const downloadImages = async (
     node,
     { createNode, createNodeId, getCache }
 ) => {
-    const coverImageNode = await createRemoteFileNode({
-        url: node.article.cover_image,
-        getCache,
-        createNode,
-        createNodeId,
-        parentNodeId: node.id,
-    });
-
-    if (coverImageNode) {
-        node.article.cover = coverImageNode.id;
+    if (node.article.cover_image) {
+        const coverImageNode = await createRemoteFileNode({
+            url: node.article.cover_image,
+            getCache,
+            createNode,
+            createNodeId,
+            parentNodeId: node.id,
+        });
+    
+        if (coverImageNode) {
+            node.article.cover = coverImageNode.id;
+        }
     }
 }
 
@@ -33,6 +35,11 @@ const createArticleNodes = (
     { reporter, createNode, createNodeId, createContentDigest }
 ) => {
     articles.forEach(article => {
+        if (!article.cover_image) {
+            const error = new Error(`Article:"${article.title}" is missing a cover image.`);
+            reporter.paniOnBuild(`missing cover image`, error);
+        }
+
         const node = {
             article: Object.assign({}, article),
             id: createNodeId(`dev.to-article-${article.id}`),

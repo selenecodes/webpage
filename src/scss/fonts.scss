@@ -54,6 +54,10 @@ h1 {
     &:not(.title) {
         margin-top: 1.95rem;
     }
+
+    &.title {
+        margin-bottom: 1rem;
+    }
 }
 
 h2 {

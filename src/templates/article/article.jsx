@@ -22,6 +22,7 @@ export const query = graphql`
 						published_timestamp
 						cover_image
 						slug
+						tag_list
 						markdown {
 							childMarkdownRemark {
 								html
@@ -48,7 +49,13 @@ const Article = ({ data }) => {
     const cover = article.cover.childImageSharp.fluid;
     return(
 		<Layout>
-			<SEO title={article.title} />
+			<SEO 
+				title={article.title}
+				description={article.description || article.title}
+				keywords={article.tag_list}
+				type={`article`}
+				image={article.cover_image}
+			/>
 			<div className="wrapper">
 				<div className="content">
 					<h1 className={styles.title}>{article.title}</h1>

@@ -4,7 +4,7 @@
     
     .content {
         width: 100%;
-        margin: 40px auto 0 auto;
+        margin: 0 auto;
         padding: 0 .9rem;
         position: relative;
 
@@ -21,6 +21,7 @@
 @media (min-width: 768px) {
     .content {
         max-width: 680px;
+        margin: 40px auto 0 auto !important;
     }
 }
 
