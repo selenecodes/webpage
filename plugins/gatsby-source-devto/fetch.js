@@ -15,7 +15,7 @@ module.exports = async ({
     });
 
     // Make API request.
-    const response = await axios(`${API_URL}/articles/me/all?${params}`, {
+    const response = await axios(`${API_URL}/articles/me/published?${params}`, {
         headers: {
             "cache-control": "no-cache",
             "api-key": API_KEY
