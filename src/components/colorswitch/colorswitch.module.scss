@@ -1,0 +1,19 @@
+.colorSwitcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    background: var(--bg);
+    border: 2px solid var(--red);
+    border-radius: 50%;
+    box-shadow: 0 0 5px var(--subtle);
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+
+    svg {
+        height: 25px;
+        width: 25px;
+    }
+}

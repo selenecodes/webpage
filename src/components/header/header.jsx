@@ -2,18 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 
 import styles from "./header.module.scss";
-
-import { switchThemeColor } from "src/utils/theme";
-
-function switchTheme() {
-    switchThemeColor();
-}
-
-function switchThemeOnEnter(e) {
-    if (e.key === 'Enter') {
-        switchThemeColor();
-    }
-}
+import ColorSwitch from "../colorswitch/colorswitch";
 
 const Header = () => {
     const routes = [
@@ -35,16 +24,8 @@ const Header = () => {
                         </li>
                     );
                 })}
-                <li className={styles.menuOption}>
-                    <div
-                        title="Switch the webpage's theme between dark/light"
-                        role="button"
-                        aria-label="Switch the webpage between dark/light"
-                        tabIndex={0}
-                        className={styles.colorSwitcher}
-                        onKeyPress={switchThemeOnEnter}
-                        onClick={switchTheme}
-                    ></div>
+                <li className={`${styles.menuOption} ${styles.colorSwitch}`}>
+                    <ColorSwitch />
                 </li>
             </ul>
         </header>

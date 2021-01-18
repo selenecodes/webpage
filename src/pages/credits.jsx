@@ -13,10 +13,17 @@ const Credits = () => (
 				<p>
 					The fonts that are used on this webpage are provided by Google Fonts.
 					<br />
-					The fonts that are used are <code>Jost</code> for most text, made by Owen Earl, see his&nbsp;
+					The font I use is <code>Jost</code>, made by Owen Earl, see his&nbsp;
                     <a className="red" target="_blank" rel="noopener noreferrer" href="https://indestructibletype.com/Jost.html" aria-label="Jost* Indestructible Type Project">
                         webpage
                     </a>.
+				</p>
+				<h2 className="red">Icons</h2>
+				<p>
+					The icons you see on this webpage are from&nbsp;
+					<a className="red" target="_blank" rel="noopener noreferrer" href="https://devicon.dev/" aria-label="DevIcons">DevIcons</a>
+					&nbsp;and&nbsp; 
+					<a className="red" target="_blank" rel="noopener noreferrer" href="https://icons8.com/" aria-label="Icons8">Icons8</a>.
 				</p>
 				<h2 className="red">Framework</h2>
 				<p>

@@ -1,0 +1,46 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="16" cy="16" r="16" fill="#303030"/>
+<circle cx="16" cy="16" r="13.75" fill="url(#paint0_linear)"/>
+<circle cx="22.8182" cy="22.8182" r="0.681818" fill="white"/>
+<circle cx="22.8182" cy="11.9091" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="22.8182" cy="20.0909" r="0.681818" fill="#4C8BF5"/>
+<circle cx="22.8182" cy="9.18182" r="0.681818" fill="#FF6282"/>
+<circle cx="22.8182" cy="17.3636" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="22.8182" cy="14.6364" r="0.681818" fill="white"/>
+<circle cx="20.0909" cy="22.8182" r="0.681818" fill="#4C8BF5"/>
+<circle cx="20.0909" cy="11.9091" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="20.0909" cy="20.0909" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="20.0909" cy="9.18182" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="20.0909" cy="17.3636" r="0.681818" fill="#4C8BF5"/>
+<circle cx="20.0909" cy="14.6364" r="0.681818" fill="white"/>
+<circle cx="17.3636" cy="22.8182" r="0.681818" fill="white"/>
+<circle cx="17.3636" cy="11.9091" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="17.3636" cy="20.0909" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="17.3636" cy="9.18182" r="0.681818" fill="white"/>
+<circle cx="17.3636" cy="17.3636" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="17.3636" cy="14.6363" r="0.681818" fill="white"/>
+<circle cx="14.6364" cy="22.8182" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="14.6364" cy="11.9091" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="14.6364" cy="20.0909" r="0.681818" fill="#4C8BF5"/>
+<circle cx="14.6364" cy="9.18182" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="14.6364" cy="17.3636" r="0.681818" fill="#4C8BF5"/>
+<circle cx="14.6364" cy="14.6363" r="0.681818" fill="#FF6282"/>
+<circle cx="11.9091" cy="22.8182" r="0.681818" fill="white"/>
+<circle cx="11.9091" cy="11.9091" r="0.681818" fill="#4C8BF5"/>
+<circle cx="11.9091" cy="20.0909" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="11.9091" cy="9.18182" r="0.681818" fill="#FF6282"/>
+<circle cx="11.9091" cy="17.3636" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="11.9091" cy="14.6363" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="9.18182" cy="22.8182" r="0.681818" fill="#4C8BF5"/>
+<circle cx="9.18182" cy="11.9091" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="9.18182" cy="9.18182" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="9.18182" cy="20.0909" r="0.681818" fill="#FF6282"/>
+<circle cx="9.18182" cy="17.3636" r="0.681818" fill="white" fill-opacity="0.45"/>
+<circle cx="9.18182" cy="14.6363" r="0.681818" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear" x1="2.25" y1="2.25" x2="29.75" y2="29.75" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#F70537"/>
+</linearGradient>
+</defs>
+</svg>

@@ -29,7 +29,7 @@ const Socials = () => {
             </a>  
             <a href="https://observablehq.com/@selenecodes" target="blank" aria-label="ObservableHQ">
                 <Observable height="30" width="30" alt="observablehq.com/@selenecodes"/>
-            </a>  
+            </a>
         </div>
     </div>
     );

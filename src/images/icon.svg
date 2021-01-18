@@ -1,0 +1,46 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="64" cy="64" r="64" fill="#303030"/>
+<circle cx="64" cy="64" r="55" fill="url(#paint0_linear)"/>
+<circle cx="91.2727" cy="91.2727" r="2.72727" fill="white"/>
+<circle cx="91.2727" cy="47.6363" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="91.2727" cy="80.3636" r="2.72727" fill="#4C8BF5"/>
+<circle cx="91.2727" cy="36.7273" r="2.72727" fill="#FF6282"/>
+<circle cx="91.2727" cy="69.4546" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="91.2727" cy="58.5454" r="2.72727" fill="white"/>
+<circle cx="80.3637" cy="91.2727" r="2.72727" fill="#4C8BF5"/>
+<circle cx="80.3637" cy="47.6363" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="80.3637" cy="80.3636" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="80.3637" cy="36.7273" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="80.3637" cy="69.4546" r="2.72727" fill="#4C8BF5"/>
+<circle cx="80.3637" cy="58.5454" r="2.72727" fill="white"/>
+<circle cx="69.4545" cy="91.2727" r="2.72727" fill="white"/>
+<circle cx="69.4545" cy="47.6364" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="69.4545" cy="80.3636" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="69.4545" cy="36.7273" r="2.72727" fill="white"/>
+<circle cx="69.4545" cy="69.4546" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="69.4545" cy="58.5455" r="2.72727" fill="white"/>
+<circle cx="58.5455" cy="91.2727" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="58.5455" cy="47.6364" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="58.5455" cy="80.3636" r="2.72727" fill="#4C8BF5"/>
+<circle cx="58.5455" cy="36.7273" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="58.5455" cy="69.4546" r="2.72727" fill="#4C8BF5"/>
+<circle cx="58.5455" cy="58.5455" r="2.72727" fill="#FF6282"/>
+<circle cx="47.6364" cy="91.2727" r="2.72727" fill="white"/>
+<circle cx="47.6364" cy="47.6364" r="2.72727" fill="#4C8BF5"/>
+<circle cx="47.6364" cy="80.3636" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="47.6364" cy="36.7273" r="2.72727" fill="#FF6282"/>
+<circle cx="47.6364" cy="69.4545" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="47.6364" cy="58.5454" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="36.7273" cy="91.2727" r="2.72727" fill="#4C8BF5"/>
+<circle cx="36.7273" cy="47.6363" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="36.7273" cy="36.7273" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="36.7273" cy="80.3636" r="2.72727" fill="#FF6282"/>
+<circle cx="36.7273" cy="69.4545" r="2.72727" fill="white" fill-opacity="0.45"/>
+<circle cx="36.7273" cy="58.5454" r="2.72727" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear" x1="9" y1="9" x2="119" y2="119" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#F70537"/>
+</linearGradient>
+</defs>
+</svg>

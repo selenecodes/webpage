@@ -50,10 +50,6 @@ h1 {
     line-height: 36px;
     font-size: 1.43rem;
     margin-bottom: -.28rem;
-    
-    &:not(.title) {
-        margin-top: 1.95rem;
-    }
 
     &.title {
         margin-bottom: 1rem;
@@ -131,9 +127,23 @@ blockquote {
     font-weight: 500;
 }
 
+code:not([class]){
+    background-color: var(--subtle);
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
 .selectable :hover {
     background-color: #ffffff;
     cursor: copy;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        &:not(.title) {
+                margin-top: 1.95rem;
+            }
+    }
 }
 
 @media (min-width: 1080px) {
