@@ -57,9 +57,11 @@ const Article = ({ data }) => {
 				image={article.cover_image}
 			/>
 			<div className="wrapper">
-				<div className={`content ${styles.article}`}>
-					<h1 className={styles.title}>{article.title}</h1>
-					{article.subtitle && <h2 className={styles.subtitle}>{article.subtitle}</h2>}
+				<article className={`content ${styles.article}`}>
+					<hgroup>
+						<h1 className={styles.title}>{article.title}</h1>
+						{article.subtitle && <h2 className={styles.subtitle}>{article.subtitle}</h2>}
+					</hgroup>
 					<p className={styles.date}>
 						<Moment format="MMM Do YYYY">{article.published_at}</Moment>
 						<span className={styles.dateDivider}> · </span>
@@ -69,9 +71,9 @@ const Article = ({ data }) => {
 						<Img fluid={cover} title="The cover" />
 					)}
 					<div className={styles.markdown}>
-						<div dangerouslySetInnerHTML={{ __html: content.html }} />
+						<main role="main" dangerouslySetInnerHTML={{ __html: content.html }} />
 					</div>
-				</div>
+				</article>
 			</div>
 		</Layout>
 	);

@@ -15,7 +15,7 @@ const Header = () => {
     ];
 
     return (
-        <header className={styles.header}>
+        <nav className={styles.header}>
             <ul className="navigation">
                 {routes.map(route => {
                     return (
@@ -28,7 +28,7 @@ const Header = () => {
                     <ColorSwitch />
                 </li>
             </ul>
-        </header>
+        </nav>
     );
 };
 
